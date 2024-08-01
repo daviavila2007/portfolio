@@ -4,3 +4,38 @@
     font-weight: normal;
     src: local('Mantinia Regular'), url('Mantinia.woff') format('woff');
     }
+    .titulo{
+        font-family: 'Mantinia Regular';
+        color: rgb(237,138,9);;
+        letter-spacing: 7px;
+        z-index: 9999;
+        position: absolute;
+        top: 60px;
+        text-align: center;
+        font-size: 50px;
+        margin-left:31%;
+    }
+    body{
+        background-color: black;
+        background-image: url(transferir.png);
+        background-repeat: no-repeat;
+        background-size: 1000px;
+        background-position-x: center;
+        align-items: center;
+        align-content: center;
+    }
+    .botao{
+        background-position-x: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 40%;
+        margin-left: 37%;
+    }
+    button{
+        font-family: 'Mantinia Regular';
+        color: rgb(237,138,9);;
+        letter-spacing: 7px;
+        background: none;
+        align-items: center;
+    }
+    
