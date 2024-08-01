@@ -1,0 +1,6 @@
+    @font-face {
+    font-family: 'Mantinia Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mantinia Regular'), url('Mantinia.woff') format('woff');
+    }
