@@ -15,7 +15,7 @@
         font-size: 50px;
         margin-left:31%;
     }
-    body{
+    .body{
         background-color: black;
         background-image: url(transferir.png);
         background-repeat: no-repeat;
@@ -23,6 +23,7 @@
         background-position-x: center;
         align-items: center;
         align-content: center;
+        background-attachment: fixed;
     }
     .botao{
         background-position-x: center;
@@ -37,5 +38,50 @@
         letter-spacing: 7px;
         background: none;
         align-items: center;
+        background-color: black;
+        
     }
-    
+    .titulo2{
+        font-family: 'Mantinia Regular';
+        color: rgb(237,138,9);;
+        letter-spacing: 7px;
+        z-index: 9999;
+        position: absolute;
+        top: 60px;
+        text-align: center;
+        font-size: 50px;
+        margin-left: 18%;
+    }
+    .botao1{
+        display: flex;
+        margin-top: 40%;
+        justify-items: center;
+        flex-direction: column;
+    }
+    .body1{
+        background-color: black;
+    }
+    .carta{
+        display: flex;
+        justify-items: center;
+        font-family: 'Mantinia Regular';
+        color: rgb(237,138,9);;
+        letter-spacing: 7px;
+        background: none;
+        align-items: center;
+        background-color: black;
+    }
+    .fundoemcima{
+        background-image: url(eu.png); 
+        width: auto;
+        height: 250px;
+        border: 1px;
+        background-position: right 35% top 15%;
+        filter: blur(5px);
+        z-index: 9999;
+     }
+     .botao2{
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+    }
