@@ -26,11 +26,10 @@
         background-attachment: fixed;
     }
     .botao{
-        background-position-x: center;
-        align-items: center;
-        align-content: center;
+        display: flex;
         margin-top: 40%;
-        margin-left: 37%;
+        justify-items: center;
+        flex-direction: column;
     }
     button{
         font-family: 'Mantinia Regular';
@@ -50,11 +49,11 @@
         top: 60px;
         text-align: center;
         font-size: 50px;
-        margin-left: 18%;
+        margin-left: 20%;
     }
     .botao1{
         display: flex;
-        margin-top: 40%;
+        margin-top: 30%;
         justify-items: center;
         flex-direction: column;
     }
@@ -80,8 +79,25 @@
         filter: blur(5px);
         z-index: 9999;
      }
-     .botao2{
+    .botao2{
         display: flex;
+        justify-items: center;
+        flex-direction: column;
+    }
+    .botao3{
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        margin-top: 40%;
+    }
+    .botoes{
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        margin-top: 13%;
+    }
+    .div1{
+        text-align: center;
         justify-items: center;
         flex-direction: column;
     }
