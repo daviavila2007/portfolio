@@ -59,6 +59,9 @@
     }
     .body1{
         background-color: black;
+        font-family: 'Mantinia Regular';
+        color: rgb(237,138,9);;
+        letter-spacing: 7px;
     }
     .carta{
         display: flex;
@@ -100,4 +103,7 @@
         text-align: center;
         justify-items: center;
         flex-direction: column;
+    }
+    .einsten{
+        width: 400px;
     }

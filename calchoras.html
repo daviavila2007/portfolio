@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="calchoras.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Horas</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Calculadora de Horas</h1>
+    <div class="samba">
+      <h3>Digite os horários que deseja calcular!</h3>
+      <input type="number" id="horaInicial" placeholder="Hora Inicial"> &nbsp; : &nbsp;
+      <input type="number" id="minutoInicial" placeholder="Minuto Inicial"> <br>
+      <input type="number" id="horaFinal" placeholder="Hora Final"> &nbsp; : &nbsp;
+      <input type="number" id="minutoFinal" placeholder="Minuto Final"> <br><br>
+      <button onclick="soma()">Soma</button>
+      <button onclick="sub()">Diferença</button>
+      <h3 id="resultado">Resultado</h3>
+      <button onclick="voltar()">voltar</button>
+    </div>
+</body>
+</html>
+<script src="calchoras.js"></script>
