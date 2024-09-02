@@ -85,4 +85,7 @@ function curriculo(){
 function ante(){
     window.location.href = "https://www.canva.com/design/DAFxdUgkBQk/Nx9E6RXl0q2y3P0VKuHBew/edit?utm_content=DAFxdUgkBQk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
 }
+function biblio(){
+    window.location.href = "https://github.com/daviavila2007/biblio"
+}
 
